@@ -17,18 +17,32 @@ body {
 
 /* Header Styles */
 header {
-    background: linear-gradient(to right, #2c3e50, #34495e);
+    position: relative;
+    height: 400px;
     color: #fff;
-    padding: 60px 0;
     text-align: center;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, rgba(44, 62, 80, 0.3), rgba(52, 73, 94, 0.3)), url('Lunch.\ jpg.webp') no-repeat center center/cover;
+}
+
+header .logo {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
 }
 
 header h1 {
-    font-size: 3.5em;
-    font-weight: 600;
-    margin: 0 0 20px;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    position: relative;
+    font-size: 4em;
+    margin: 0;
+    z-index: 2;
+    font-family: 'Playfair Display', serif;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    background: rgba(255, 255, 255, 0.7);
+    padding: 10px 20px;
+    border-radius: 10px;
 }
 
 /* Main Content Styles */
